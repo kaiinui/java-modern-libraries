@@ -3,6 +3,17 @@ java-modern-libraries
 
 A list of modern Java libraries.
 
+Utilities
+---
+
+- [Joda-Time](http://www.joda.org/joda-time/) - DateTime made easy.
+
+```java
+DateTime dt = new DateTime("2013-08-01T12:30:50")
+
+dt.dayOfMonth().getMaximumValue();
+```
+
 Template
 ---
 
