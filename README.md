@@ -8,6 +8,26 @@ Supports
 
 - [Guava](https://code.google.com/p/guava-libraries/) - Here's what Java is missing!
 
+```java
+ImmutableList<String> immutableList = ImmutableList.of("a", "b", "c");
+ImmutableSet<String> immutableSet = ImmutableSet.of("a", "b", "c");
+ImmutableMap<String, String> imuttableMap = 
+    ImmutableMap.of("k1", "v1", "k2", "v2", "k3", "v3");
+
+final Map<String, Widget> map = Maps.newHashMap();
+
+List<String> values = Lists.newArrayList("a", null, "b", "c");
+Iterable<String> withoutNulls = Iterables.filter(values, Predicates.notNull());
+```
+
+- [Lombok](http://projectlombok.org/) - Reveolutionary reducing your codes.
+
+```java
+public class Foo {
+    @Getter @Setter private int var;
+}
+```
+
 Utilities
 ---
 
