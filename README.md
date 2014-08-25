@@ -19,6 +19,8 @@ DateTime dt = new DateTime("2013-08-01T12:30:50")
 dt.dayOfMonth().getMaximumValue();
 ```
 
+- [Jackson](http://jackson.codehaus.org/) - High performance JSON processor
+
 Template
 ---
 
