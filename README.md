@@ -3,6 +3,11 @@ java-modern-libraries
 
 A list of modern Java libraries.
 
+Supports
+---
+
+- [Guava](https://code.google.com/p/guava-libraries/) - Here's what Java is missing!
+
 Utilities
 ---
 
@@ -30,3 +35,4 @@ html
         if book.available
           li #{book.name} for #{book.price} €
 ```
+
