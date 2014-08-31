@@ -41,6 +41,25 @@ dt.dayOfMonth().getMaximumValue();
 
 - [Jackson](http://jackson.codehaus.org/) - High performance JSON processor
 
+ORM
+---
+
+- [Hibernate](http://hibernate.org/)
+
+```java
+@Entity
+public class Order {
+    @Id
+    @GeneratedValue
+    Integer id;
+    @ManyToOne
+    Customer customer;
+    @OneToMany
+    Set<Item> items;
+    BigDecimal totalCost;
+}
+```
+
 Template
 ---
 
